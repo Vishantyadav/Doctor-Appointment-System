@@ -3,7 +3,7 @@ import "../Styles/Register.css";
 import { Form, Input, message } from "antd";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-const Register = () => {
+const Registerpage = () => {
   const navigate = useNavigate();
 
   //form handler
@@ -51,4 +51,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Registerpage;
